@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+    font-family: 'Open sans', sans-serif;
+}
+.container{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    width: 100%;
+    align-items: center;
+    height: 56px;
+    display: flex ;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.heder-logo{
+    
+}
+.header-navigation{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+.nav-list{
+    gap: 32px;
+    display: flex;
+    list-style-type: none;
+
+}
+.nav-item{
+    justify-content: space-between;
+    justify-content: center;
+    padding-top: 16PX;
+    padding-bottom: 16PX;
+    
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+}
+.header-btn{
+
+}
+main{
+
+}
+.hero{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.hero-left{
+
+}
+.hero-title{
+    width: 470px;
+    margin-top: 97px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 130%;
+    color: #000000;
+
+}
+.hero-text{
+    margin-top: 16px;
+    width: 465px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 16px;
+
+}
+
+.hero-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    width: 232px;
+    text-decoration: none;
+    width: 200px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    background: #00BAFC;
+
+
+}
+.hero-right{
+    margin-left: 175px;
+
+}
+
+
+.hero-img{
+    margin-top: 80px;
+    border-radius: 7px;
+}
+
+.services{
+    margin-bottom: 56px;
+
+}
+.services-title{
+    margin-top: 136px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 16px;
+
+}
+.services-text{
+    margin: 0 auto;
+    width: 719px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 56px;
+}
+.services-card{
+    margin-right: 20px;
+
+}
+.services-list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.services-item{
+    flex-direction: column;
+    display: flex;
+    width: 310px;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    background: white;
+    padding: 50px 35px 50px 35px;
+    box-sizing: border-box;
+    margin-bottom: 37px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    
+    }
+
+    .services-item-title{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .services-item-text{
+
+    }
+    .services-link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        
+    }
+    .first-link{
+        height: 40px;
+        width: 167px;
+        background:#00BAFC;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 24px;
+        line-height: 45px;
+        color: white;
+        border-radius: 5px;
+        box-sizing: border-box;
+        display: block;
+        text-align: center;
+        
+    }
+    .second-link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;ign: center;
+    text-decoration-line: underline;
+    color: #00BAFC;
+
+    }
+    
+    .items-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .items-text h3 {
+        /* width: 50%;
+        height: 100%; */
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 130%
+
+    }
+    
+    .items {
+        width: 1120px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .items-text p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .items {
+        gap: 30px;
+    }
+    
+    .button1 {
+        color: white;
+        background-color: #00BAFC;
+        padding: 14px 50px;
+        border-radius: 5px;
+        margin-top: 60px;
+    }
+    .servis-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .servis-list h3{
+        width: 719;
+        align-items: center;
+
+    }
